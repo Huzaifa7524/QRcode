@@ -1,0 +1,82 @@
+body{
+    text-align: center;
+}
+h1{
+color: #195ed5c7;
+font-family: "Times New Roman", Times, serif;
+font-size: 50px;
+text-align: center;
+text-shadow: 2px 2px 2px #12202a93;
+}
+h3{
+color: black;
+font-family: "Times New Roman", Times, serif;
+font-size: 40px;
+text-align: center;
+text-shadow: 2px 2px 2px #12202a93;
+}
+.border{
+
+width: 60%;
+height: 50%;
+margin:auto;
+padding: 5px ;
+}
+input{
+    width:50%;
+    border:2px solid black;
+    border-radius:4px;
+    margin:8px 25%;
+    outline: none;
+    padding: 8px;
+    box-sizing:border-box;                     
+    transition: 0.3s;
+}
+input[type=text]:focus{
+    border-color: #202735c7;
+    box-shadow: 0 0 10px 0 black;
+}
+.second_div{
+    width: 50%;
+    height: 50%;
+    margin:auto;
+    padding: 8px ;
+}
+.qr{
+    width: 50%;
+    height: 50%;
+    margin:auto;
+    padding: 8px ;
+
+    align-items: center;
+}
+button{
+    margin: auto;
+    background-color: burlywood;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    box-shadow: 0 9px #999;
+       
+}
+button:hover{
+    background-color: #3e8e41;
+    color: white;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
